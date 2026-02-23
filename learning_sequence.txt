@@ -1,0 +1,35 @@
+
+1. Linux Basics (The Foundation)
+    
+    Everything in DevOps runs on Linux. You don’t need to be a guru, but you must be comfortable with the "black screen."
+
+    What to learn: File navigation (cd, ls, pwd), permissions (chmod), package management (apt or yum), and basic SSH (how to connect to a remote server).
+
+    Why: Jenkins and Docker both run on Linux servers; you can't manage them if you're afraid of the terminal.
+
+
+2. Docker (The Package)
+
+    Learn how to "box up" your app so it works everywhere.
+
+    What to learn: Writing a Dockerfile, building Images, and running Containers. Understand how to map ports (e.g., -p 8080:8080) and use Docker Hub.
+
+    Why: You need to know how to containerize your app manually before you can tell Jenkins to do it automatically.
+
+
+3. AWS (The Home)
+    
+    Now you need a place for your app to live.
+
+    What to learn: How to launch an EC2 instance, configuring Security Groups (firewalls), and generating Key Pairs (.pem files) for login.
+
+    Why: You need a server ready and waiting before you can set up Jenkins to deploy to it.
+
+
+4. Jenkins (The Glue)
+
+    Finally, you automate the whole journey.
+
+    What to learn: Installing Jenkins on an EC2, installing plugins, and writing a Declarative Pipeline (Jenkinsfile).
+
+    Why: Jenkins is the "manager" that uses your Linux, Docker, and AWS skills to run the show.
